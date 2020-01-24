@@ -1,0 +1,21 @@
+[BEGINVDF]
+Comment=This patch force-enables the reusable projectiles in the Free Aiming Patch.%%NUsage is strongly discouraged, it might break your game. Use at your own risk.
+BaseDir=.\
+VDFName=.\GFAReuseProjectileHack.vdf
+
+[FILES]
+; Resources (list the specific files from _work here)
+; _work\* -r
+
+; Script files
+Ninja\GFAReuseProjectileHack\* -r
+
+[EXCLUDE]
+_work\Data\Scripts\* -r
+*.vm
+*.vdf
+*.bat
+
+[INCLUDE]
+
+[ENDVDF]
