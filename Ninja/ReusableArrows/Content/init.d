@@ -11,7 +11,8 @@ func void Ninja_ReusableArrows_Menu() {
     MEM_InitAll();
 
     // First, check for the necessary symbols of GFA to prevent parser errors
-    if (!MEM_GetSymbol("GFA_Init")) || (!MEM_GetSymbol("GFA_REUSE_PROJECTILES")) {
+    if (!MEM_GetSymbol("GFA_Init"))
+    || (!MEM_GetSymbol("GFA_REUSE_PROJECTILES")) || (!MEM_GetSymbol("GFA_CUSTOM_COLLISIONS")) {
         MEM_SendToSpy(zERR_TYPE_FATAL, "Reusable Arrows: Gothic Free Aim (GFA) not installed or invalid version");
         return;
     };
@@ -26,7 +27,9 @@ func void Ninja_ReusableArrows_Menu() {
  */
 func void Ninja_ReusableArrows_Hook(var int flags) {
     const int GFA_REUSE_PROJECTILES = 0;
+    const int GFA_CUSTOM_COLLISIONS = 0;
     GFA_REUSE_PROJECTILES = MEM_ReadInt(MEM_GetSymbol("GFA_REUSE_PROJECTILES") + zCParSymbol_content_offset);
-    PassArgumentI(flags | GFA_REUSE_PROJECTILES);
+    GFA_CUSTOM_COLLISIONS = MEM_ReadInt(MEM_GetSymbol("GFA_CUSTOM_COLLISIONS") + zCParSymbol_content_offset);
+    PassArgumentI(flags | GFA_REUSE_PROJECTILES | GFA_CUSTOM_COLLISIONS);
     ContinueCall();
 };
