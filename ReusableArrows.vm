@@ -1,0 +1,21 @@
+[BEGINVDF]
+Comment=This patch allows to collect and reuse shot projectiles.%%NUsage irreversibly changes the game balance!%%NRequires the Free Aiming patch or the GFA scripts.
+BaseDir=.\
+VDFName=.\ReusableArrows.vdf
+
+[FILES]
+; Resources (list the specific files from _work here)
+; _work\* -r
+
+; Script files
+Ninja\ReusableArrows\* -r
+
+[EXCLUDE]
+_work\Data\Scripts\* -r
+*.vm
+*.vdf
+*.bat
+
+[INCLUDE]
+
+[ENDVDF]
