@@ -1,5 +1,5 @@
 [BEGINVDF]
-Comment=This patch allows to collect and reuse shot projectiles.%%NUsage irreversibly changes the game balance!%%NRequires the Free Aiming patch or the GFA scripts.
+Comment=This patch allows to collect and reuse shot projectiles (Gothic, Gothic Sequel, Gothic 2, and Gothic 2 NotR).%%NUsage irreversibly changes the game balance!%%NRequires the Free Aiming patch or the GFA scripts.
 BaseDir=.\
 VDFName=.\ReusableArrows.vdf
 
@@ -12,6 +12,7 @@ Ninja\ReusableArrows\* -r
 
 [EXCLUDE]
 _work\Data\Scripts\* -r
+empty -r
 *.vm
 *.vdf
 *.bat
