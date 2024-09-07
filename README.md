@@ -5,9 +5,9 @@
 [![Build](https://github.com/szapp/ReusableArrows/actions/workflows/build.yml/badge.svg)](https://github.com/szapp/ReusableArrows/actions/workflows/build.yml)
 [![GitHub release](https://img.shields.io/github/v/release/szapp/ReusableArrows.svg)](https://github.com/szapp/ReusableArrows/releases/latest)  
 <!-- [![World of Gothic](https://raw.githubusercontent.com/szapp/patch-template/main/.github/actions/initialization/badges/wog.svg)](https://www.worldofgothic.de/dl/download_XXXX.htm) -->
-<!-- [![Spine](https://raw.githubusercontent.com/szapp/patch-template/main/.github/actions/initialization/badges/spine.svg)](https://clockwork-origins.com/spine) -->
-<!-- [![Steam Gothic 1](https://img.shields.io/badge/steam-Gothic%201-2a3f5a?logo=steam&labelColor=1b2838)](https://steamcommunity.com/sharedfiles/filedetails/?id=XXXXXXXXXX) -->
-<!-- [![Steam Gothic 2](https://img.shields.io/badge/steam-Gothic%202-2a3f5a?logo=steam&labelColor=1b2838)](https://steamcommunity.com/sharedfiles/filedetails/?id=XXXXXXXXXX) -->
+[![Spine](https://raw.githubusercontent.com/szapp/patch-template/main/.github/actions/initialization/badges/spine.svg)](https://clockwork-origins.com/spine)
+[![Steam Gothic 1](https://img.shields.io/badge/steam-Gothic%201-2a3f5a?logo=steam&labelColor=1b2838)](https://steamcommunity.com/sharedfiles/filedetails/?id=3326289677)
+[![Steam Gothic 2](https://img.shields.io/badge/steam-Gothic%202-2a3f5a?logo=steam&labelColor=1b2838)](https://steamcommunity.com/sharedfiles/filedetails/?id=3326286598)
 
 Allow to collect and reuse shot projectiles in Gothic, Gothic Sequel, Gothic 2, and Gothic 2 NotR.
 
@@ -37,13 +37,11 @@ The patch can be added to the game at any point. However:
 
 2. Copy the file `ReusableArrows.vdf` to `[Gothic]\Data\`. To uninstall, remove the file again.
 
-<!--
 The patch is also available on
-- [World of Gothic](https://www.worldofgothic.de/dl/download_XXXX.htm) | [Forum thread](https://forum.worldofplayers.de/forum/threads/XXXXXXX)
+<!-- - [World of Gothic](https://www.worldofgothic.de/dl/download_XXXX.htm) | [Forum thread](https://forum.worldofplayers.de/forum/threads/XXXXXXX) -->
 - [Spine Mod-Manager](https://clockwork-origins.com/spine/)
-- [Steam Workshop Gothic 1](https://steamcommunity.com/sharedfiles/filedetails/?id=XXXXXXXXXX)
-- [Steam Workshop Gothic 2](https://steamcommunity.com/sharedfiles/filedetails/?id=XXXXXXXXXX)
--->
+- [Steam Workshop Gothic 1](https://steamcommunity.com/sharedfiles/filedetails/?id=3326289677)
+- [Steam Workshop Gothic 2](https://steamcommunity.com/sharedfiles/filedetails/?id=3326286598)
 
 ### Requirements
 
